@@ -1,3 +1,4 @@
+#shell program to exchange the values of two variables 
 echo Enter value for a: 
 read -r  a 
 echo Enter value for b: 

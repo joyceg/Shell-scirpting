@@ -1,4 +1,4 @@
-#my first shell script
+#my first shell script to enter name,enrollment number and program name and to display details
 echo “Enter your name:” 
 read Name 
 echo “Enter your program name:” 
