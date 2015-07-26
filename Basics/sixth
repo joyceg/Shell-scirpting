@@ -1,7 +1,7 @@
 #program to add,subtract and multiply two numberse
-add=`expr 1 + 2`
-sub=`expr 2 - 1`
-mult=`expr 1 \* 2`
+add=`expr $1 + $2`
+sub=`expr $2 - $1`
+mult=`expr $1 \* $2`
 echo "Addition of 1 and 2 is $add"
 echo "Subtraction of 2 from 1 is $sub"
 echo "Multiplication of 1 and 2 is $mult"
